@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		331D7C701E751E330075B653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C6F1E751E330075B653 /* AppDelegate.swift */; };
+		331D7C721E751E330075B653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C711E751E330075B653 /* ViewController.swift */; };
+		331D7C751E751E330075B653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D7C731E751E330075B653 /* Main.storyboard */; };
+		331D7C771E751E330075B653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331D7C761E751E330075B653 /* Assets.xcassets */; };
+		331D7C7A1E751E330075B653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D7C781E751E330075B653 /* LaunchScreen.storyboard */; };
+		331D7C851E751E330075B653 /* BlueHarvestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C841E751E330075B653 /* BlueHarvestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		331D7C811E751E330075B653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 331D7C641E751E330075B653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 331D7C6B1E751E330075B653;
+			remoteInfo = BlueHarvest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		331D7C6C1E751E330075B653 /* BlueHarvest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueHarvest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		331D7C6F1E751E330075B653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		331D7C711E751E330075B653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		331D7C741E751E330075B653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		331D7C761E751E330075B653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		331D7C791E751E330075B653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		331D7C7B1E751E330075B653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331D7C801E751E330075B653 /* BlueHarvestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueHarvestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		331D7C841E751E330075B653 /* BlueHarvestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueHarvestTests.swift; sourceTree = "<group>"; };
+		331D7C861E751E330075B653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		331D7C691E751E330075B653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331D7C7D1E751E330075B653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		331D7C631E751E330075B653 = {
+			isa = PBXGroup;
+			children = (
+				331D7C6E1E751E330075B653 /* BlueHarvest */,
+				331D7C831E751E330075B653 /* BlueHarvestTests */,
+				331D7C6D1E751E330075B653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		331D7C6D1E751E330075B653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				331D7C6C1E751E330075B653 /* BlueHarvest.app */,
+				331D7C801E751E330075B653 /* BlueHarvestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		331D7C6E1E751E330075B653 /* BlueHarvest */ = {
+			isa = PBXGroup;
+			children = (
+				331D7C6F1E751E330075B653 /* AppDelegate.swift */,
+				331D7C711E751E330075B653 /* ViewController.swift */,
+				331D7C731E751E330075B653 /* Main.storyboard */,
+				331D7C761E751E330075B653 /* Assets.xcassets */,
+				331D7C781E751E330075B653 /* LaunchScreen.storyboard */,
+				331D7C7B1E751E330075B653 /* Info.plist */,
+			);
+			path = BlueHarvest;
+			sourceTree = "<group>";
+		};
+		331D7C831E751E330075B653 /* BlueHarvestTests */ = {
+			isa = PBXGroup;
+			children = (
+				331D7C841E751E330075B653 /* BlueHarvestTests.swift */,
+				331D7C861E751E330075B653 /* Info.plist */,
+			);
+			path = BlueHarvestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		331D7C6B1E751E330075B653 /* BlueHarvest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331D7C891E751E330075B653 /* Build configuration list for PBXNativeTarget "BlueHarvest" */;
+			buildPhases = (
+				331D7C681E751E330075B653 /* Sources */,
+				331D7C691E751E330075B653 /* Frameworks */,
+				331D7C6A1E751E330075B653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueHarvest;
+			productName = BlueHarvest;
+			productReference = 331D7C6C1E751E330075B653 /* BlueHarvest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		331D7C7F1E751E330075B653 /* BlueHarvestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331D7C8C1E751E330075B653 /* Build configuration list for PBXNativeTarget "BlueHarvestTests" */;
+			buildPhases = (
+				331D7C7C1E751E330075B653 /* Sources */,
+				331D7C7D1E751E330075B653 /* Frameworks */,
+				331D7C7E1E751E330075B653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				331D7C821E751E330075B653 /* PBXTargetDependency */,
+			);
+			name = BlueHarvestTests;
+			productName = BlueHarvestTests;
+			productReference = 331D7C801E751E330075B653 /* BlueHarvestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		331D7C641E751E330075B653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "David Nutter";
+				TargetAttributes = {
+					331D7C6B1E751E330075B653 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NRZJU9A8L4;
+						ProvisioningStyle = Automatic;
+					};
+					331D7C7F1E751E330075B653 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NRZJU9A8L4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 331D7C6B1E751E330075B653;
+					};
+				};
+			};
+			buildConfigurationList = 331D7C671E751E330075B653 /* Build configuration list for PBXProject "BlueHarvest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 331D7C631E751E330075B653;
+			productRefGroup = 331D7C6D1E751E330075B653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				331D7C6B1E751E330075B653 /* BlueHarvest */,
+				331D7C7F1E751E330075B653 /* BlueHarvestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		331D7C6A1E751E330075B653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331D7C7A1E751E330075B653 /* LaunchScreen.storyboard in Resources */,
+				331D7C771E751E330075B653 /* Assets.xcassets in Resources */,
+				331D7C751E751E330075B653 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331D7C7E1E751E330075B653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331D7C681E751E330075B653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331D7C721E751E330075B653 /* ViewController.swift in Sources */,
+				331D7C701E751E330075B653 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331D7C7C1E751E330075B653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331D7C851E751E330075B653 /* BlueHarvestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		331D7C821E751E330075B653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 331D7C6B1E751E330075B653 /* BlueHarvest */;
+			targetProxy = 331D7C811E751E330075B653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		331D7C731E751E330075B653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331D7C741E751E330075B653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		331D7C781E751E330075B653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331D7C791E751E330075B653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		331D7C871E751E330075B653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		331D7C881E751E330075B653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		331D7C8A1E751E330075B653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NRZJU9A8L4;
+				INFOPLIST_FILE = BlueHarvest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drumbeatninja.BlueHarvest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		331D7C8B1E751E330075B653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NRZJU9A8L4;
+				INFOPLIST_FILE = BlueHarvest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drumbeatninja.BlueHarvest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		331D7C8D1E751E330075B653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NRZJU9A8L4;
+				INFOPLIST_FILE = BlueHarvestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drumbeatninja.BlueHarvestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueHarvest.app/BlueHarvest";
+			};
+			name = Debug;
+		};
+		331D7C8E1E751E330075B653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NRZJU9A8L4;
+				INFOPLIST_FILE = BlueHarvestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drumbeatninja.BlueHarvestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueHarvest.app/BlueHarvest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		331D7C671E751E330075B653 /* Build configuration list for PBXProject "BlueHarvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331D7C871E751E330075B653 /* Debug */,
+				331D7C881E751E330075B653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331D7C891E751E330075B653 /* Build configuration list for PBXNativeTarget "BlueHarvest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331D7C8A1E751E330075B653 /* Debug */,
+				331D7C8B1E751E330075B653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		331D7C8C1E751E330075B653 /* Build configuration list for PBXNativeTarget "BlueHarvestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331D7C8D1E751E330075B653 /* Debug */,
+				331D7C8E1E751E330075B653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 331D7C641E751E330075B653 /* Project object */;
+}
