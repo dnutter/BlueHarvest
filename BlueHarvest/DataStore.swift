@@ -16,11 +16,7 @@ class DataStore {
     private let backgroundQueue = DispatchQueue(label: "com.dnutter.datastore")
 
     private static var filePath : String {
-        let manager = FileManager.default
-        guard let url = manager.urls(for: .documentDirectory, in: .userDomainMask).first else {
-            assertionFailure()
-            return ""
-        }
+        let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
         return url.appendingPathComponent(self.profiles).path
     }
     
