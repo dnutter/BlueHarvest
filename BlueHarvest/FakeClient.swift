@@ -23,25 +23,15 @@ struct FakeClient: APIClient {
                 return
             }
             
-            do {
-                let json = try JSONSerialization.data(withJSONObject: profileDictionary, options: .prettyPrinted)
-                
-                let formatter = ProfileFormatter()
-                if let profileList = formatter.makeProfileList(from: json) {
-                    DispatchQueue.main.async {
-                        completion(nil, profileList)
-                    }
-                    
-                } else {
-                    DispatchQueue.main.async {
-                        completion(NSError(domain: "APIClient", code: 2, userInfo: ["Reason": "Could not parse"]), [])
-                    }
+            let formatter = ProfileFormatter()
+            if let profileList = formatter.makeProfileList(from: profileDictionary) {
+                DispatchQueue.main.async {
+                    completion(nil, profileList)
                 }
                 
-            } catch  {
+            } else {
                 DispatchQueue.main.async {
-                    completion(error, [])
-                    
+                    completion(NSError(domain: "APIClient", code: 2, userInfo: ["Reason": "Could not parse"]), [])
                 }
             }
         }

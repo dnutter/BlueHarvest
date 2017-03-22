@@ -16,7 +16,6 @@
 		331D7C751E751E330075B653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D7C731E751E330075B653 /* Main.storyboard */; };
 		331D7C771E751E330075B653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331D7C761E751E330075B653 /* Assets.xcassets */; };
 		331D7C7A1E751E330075B653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D7C781E751E330075B653 /* LaunchScreen.storyboard */; };
-		331D7C851E751E330075B653 /* BlueHarvestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C841E751E330075B653 /* BlueHarvestTests.swift */; };
 		331D7C911E751EEB0075B653 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C901E751EEB0075B653 /* APIClient.swift */; };
 		331D7C941E75206D0075B653 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C931E75206D0075B653 /* Profile.swift */; };
 		331D7C951E75206D0075B653 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C931E75206D0075B653 /* Profile.swift */; };
@@ -25,6 +24,8 @@
 		3374F4E81E7A4E15000E5DD8 /* ProfileFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374F4E71E7A4E15000E5DD8 /* ProfileFormatter.swift */; };
 		3374F4EB1E7A5E24000E5DD8 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374F4EA1E7A5E24000E5DD8 /* DataStore.swift */; };
 		33851ADE1E75C17B00E2FC50 /* IndividualCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33851ADD1E75C17B00E2FC50 /* IndividualCell.swift */; };
+		33BFC23F1E81FBF600FDEBF4 /* ProfileFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374F4E71E7A4E15000E5DD8 /* ProfileFormatter.swift */; };
+		33BFC2411E82214200FDEBF4 /* BlueHarvestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C841E751E330075B653 /* BlueHarvestTests.swift */; };
 		3EE96B5DE243D873C353231E /* Pods_BlueHarvestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27906ED5CB8CE50EB4A54E01 /* Pods_BlueHarvestTests.framework */; };
 		490BA56A230B8192F9B9A0D5 /* Pods_BlueHarvest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B258AAC0764B3F7D544BB9 /* Pods_BlueHarvest.framework */; };
 /* End PBXBuildFile section */
@@ -442,8 +443,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BFC23F1E81FBF600FDEBF4 /* ProfileFormatter.swift in Sources */,
+				33BFC2411E82214200FDEBF4 /* BlueHarvestTests.swift in Sources */,
 				331D7C951E75206D0075B653 /* Profile.swift in Sources */,
-				331D7C851E751E330075B653 /* BlueHarvestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
