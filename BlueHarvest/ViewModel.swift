@@ -17,10 +17,10 @@ class ViewModel {
     weak var delegate: ViewModelDelegate?
     var profiles = [Profile]() // Model
 
-    private var client: APIClient!
+    private var client: APIClient
     
-    init() {
-        self.client = Client()        
+    init(_ client: APIClient = Client()) {
+        self.client = client
         self.profiles = DataStore.shared.unarchive()
     }
     
