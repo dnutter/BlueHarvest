@@ -10,7 +10,7 @@ import Foundation
 
 struct ProfileFormatter {
     
-    struct ProfileKeys {
+    private struct ProfileKeys {
         static let individuals = "individuals"
         static let firstName = "firstName"
         static let lastName = "lastName"

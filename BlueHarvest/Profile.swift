@@ -41,7 +41,7 @@ extension Profile {
 
 extension Profile: Serializable {
     
-    struct Constants {
+    private struct SerializeKeys {
         static let firstName = "firstName"
         static let lastName = "lastName"
         static let birthdate = "birthdate"
@@ -51,12 +51,12 @@ extension Profile: Serializable {
     }
     
     init?(with dictionary: Dictionary<String, Any>) {
-        guard let firstName = dictionary[Constants.firstName] as? String,
-        let lastName = dictionary[Constants.lastName] as? String,
-        let birthdate = dictionary[Constants.birthdate] as? String,
-        let profilePicture = dictionary[Constants.profilePicture] as? String,
-        let forceSensitive = dictionary[Constants.forceSensitive] as? Bool,
-        let affiliationString = dictionary[Constants.affiliation] as? String,
+        guard let firstName = dictionary[SerializeKeys.firstName] as? String,
+        let lastName = dictionary[SerializeKeys.lastName] as? String,
+        let birthdate = dictionary[SerializeKeys.birthdate] as? String,
+        let profilePicture = dictionary[SerializeKeys.profilePicture] as? String,
+        let forceSensitive = dictionary[SerializeKeys.forceSensitive] as? Bool,
+        let affiliationString = dictionary[SerializeKeys.affiliation] as? String,
         let affiliation = Profile.Affiliation(rawValue: affiliationString) else {
             return nil
         }
@@ -71,12 +71,12 @@ extension Profile: Serializable {
     
     func asDictionary() -> Dictionary<String, Any> {
         var dictionary = Dictionary<String, Any>()
-        dictionary[Constants.firstName] = self.firstName
-        dictionary[Constants.lastName] = self.lastName
-        dictionary[Constants.birthdate] = self.birthdate
-        dictionary[Constants.profilePicture] = self.profilePicture
-        dictionary[Constants.forceSensitive] = self.forceSensitive
-        dictionary[Constants.affiliation] = self.affiliation.rawValue
+        dictionary[SerializeKeys.firstName] = self.firstName
+        dictionary[SerializeKeys.lastName] = self.lastName
+        dictionary[SerializeKeys.birthdate] = self.birthdate
+        dictionary[SerializeKeys.profilePicture] = self.profilePicture
+        dictionary[SerializeKeys.forceSensitive] = self.forceSensitive
+        dictionary[SerializeKeys.affiliation] = self.affiliation.rawValue
         
         return dictionary
     }
