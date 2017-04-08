@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		330A53501E7F94E900BC2FED /* STARWARS.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 330A534F1E7F94E900BC2FED /* STARWARS.TTF */; };
+		330A53521E7FBAF500BC2FED /* FailClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330A53511E7FBAF500BC2FED /* FailClient.swift */; };
+		330A53541E7FBB1300BC2FED /* FakeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330A53531E7FBB1300BC2FED /* FakeClient.swift */; };
+		330A53561E7FBB3800BC2FED /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330A53551E7FBB3800BC2FED /* Client.swift */; };
 		331D7C701E751E330075B653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C6F1E751E330075B653 /* AppDelegate.swift */; };
 		331D7C721E751E330075B653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C711E751E330075B653 /* ViewController.swift */; };
 		331D7C751E751E330075B653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D7C731E751E330075B653 /* Main.storyboard */; };
 		331D7C771E751E330075B653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331D7C761E751E330075B653 /* Assets.xcassets */; };
 		331D7C7A1E751E330075B653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331D7C781E751E330075B653 /* LaunchScreen.storyboard */; };
-		331D7C851E751E330075B653 /* BlueHarvestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C841E751E330075B653 /* BlueHarvestTests.swift */; };
+		331D7C911E751EEB0075B653 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C901E751EEB0075B653 /* APIClient.swift */; };
+		331D7C941E75206D0075B653 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C931E75206D0075B653 /* Profile.swift */; };
+		331D7C951E75206D0075B653 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C931E75206D0075B653 /* Profile.swift */; };
+		331D7C971E7526600075B653 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C961E7526600075B653 /* DetailViewController.swift */; };
+		3374F4E51E7A4C7C000E5DD8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374F4E41E7A4C7C000E5DD8 /* ViewModel.swift */; };
+		3374F4E81E7A4E15000E5DD8 /* ProfileFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374F4E71E7A4E15000E5DD8 /* ProfileFormatter.swift */; };
+		3374F4EB1E7A5E24000E5DD8 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374F4EA1E7A5E24000E5DD8 /* DataStore.swift */; };
+		33851ADE1E75C17B00E2FC50 /* IndividualCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33851ADD1E75C17B00E2FC50 /* IndividualCell.swift */; };
+		33BFC23F1E81FBF600FDEBF4 /* ProfileFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374F4E71E7A4E15000E5DD8 /* ProfileFormatter.swift */; };
+		33BFC2411E82214200FDEBF4 /* BlueHarvestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D7C841E751E330075B653 /* BlueHarvestTests.swift */; };
+		3EE96B5DE243D873C353231E /* Pods_BlueHarvestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27906ED5CB8CE50EB4A54E01 /* Pods_BlueHarvestTests.framework */; };
+		490BA56A230B8192F9B9A0D5 /* Pods_BlueHarvest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B258AAC0764B3F7D544BB9 /* Pods_BlueHarvest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27906ED5CB8CE50EB4A54E01 /* Pods_BlueHarvestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueHarvestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		330A534F1E7F94E900BC2FED /* STARWARS.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = STARWARS.TTF; sourceTree = "<group>"; };
+		330A53511E7FBAF500BC2FED /* FailClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FailClient.swift; sourceTree = "<group>"; };
+		330A53531E7FBB1300BC2FED /* FakeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeClient.swift; sourceTree = "<group>"; };
+		330A53551E7FBB3800BC2FED /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		331D7C6C1E751E330075B653 /* BlueHarvest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueHarvest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		331D7C6F1E751E330075B653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		331D7C711E751E330075B653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +56,18 @@
 		331D7C801E751E330075B653 /* BlueHarvestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueHarvestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331D7C841E751E330075B653 /* BlueHarvestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueHarvestTests.swift; sourceTree = "<group>"; };
 		331D7C861E751E330075B653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331D7C901E751EEB0075B653 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		331D7C931E75206D0075B653 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		331D7C961E7526600075B653 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3374F4E41E7A4C7C000E5DD8 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3374F4E71E7A4E15000E5DD8 /* ProfileFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileFormatter.swift; sourceTree = "<group>"; };
+		3374F4EA1E7A5E24000E5DD8 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		33851ADD1E75C17B00E2FC50 /* IndividualCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualCell.swift; sourceTree = "<group>"; };
+		5BF493F84341513E2D45EFCA /* Pods-BlueHarvestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueHarvestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueHarvestTests/Pods-BlueHarvestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72B258AAC0764B3F7D544BB9 /* Pods_BlueHarvest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueHarvest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB175A87109176FEF934E9C1 /* Pods-BlueHarvest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueHarvest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueHarvest/Pods-BlueHarvest.debug.xcconfig"; sourceTree = "<group>"; };
+		E107B3D9367E3D12A9B09A64 /* Pods-BlueHarvestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueHarvestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueHarvestTests/Pods-BlueHarvestTests.release.xcconfig"; sourceTree = "<group>"; };
+		F98FE6A56FE471480C14527B /* Pods-BlueHarvest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueHarvest.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueHarvest/Pods-BlueHarvest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490BA56A230B8192F9B9A0D5 /* Pods_BlueHarvest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +83,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE96B5DE243D873C353231E /* Pods_BlueHarvestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0148299A593DE3965ABD1147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB175A87109176FEF934E9C1 /* Pods-BlueHarvest.debug.xcconfig */,
+				F98FE6A56FE471480C14527B /* Pods-BlueHarvest.release.xcconfig */,
+				5BF493F84341513E2D45EFCA /* Pods-BlueHarvestTests.debug.xcconfig */,
+				E107B3D9367E3D12A9B09A64 /* Pods-BlueHarvestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		039480EC238F6C90FD6E0486 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72B258AAC0764B3F7D544BB9 /* Pods_BlueHarvest.framework */,
+				27906ED5CB8CE50EB4A54E01 /* Pods_BlueHarvestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		330A534E1E7E4CCC00BC2FED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				331D7C711E751E330075B653 /* ViewController.swift */,
+				331D7C961E7526600075B653 /* DetailViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		331D7C631E751E330075B653 = {
 			isa = PBXGroup;
 			children = (
 				331D7C6E1E751E330075B653 /* BlueHarvest */,
 				331D7C831E751E330075B653 /* BlueHarvestTests */,
 				331D7C6D1E751E330075B653 /* Products */,
+				0148299A593DE3965ABD1147 /* Pods */,
+				039480EC238F6C90FD6E0486 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +142,18 @@
 		331D7C6E1E751E330075B653 /* BlueHarvest */ = {
 			isa = PBXGroup;
 			children = (
+				330A534E1E7E4CCC00BC2FED /* ViewControllers */,
+				3374F4E91E7A5DDF000E5DD8 /* DataStore */,
+				3374F4E61E7A4DDD000E5DD8 /* JSONFormatters */,
+				3374F4E31E7A4C67000E5DD8 /* ViewModel */,
+				33851ADC1E75C15900E2FC50 /* Views */,
+				331D7C921E7520420075B653 /* Model */,
+				331D7C8F1E751EC10075B653 /* APIClient */,
 				331D7C6F1E751E330075B653 /* AppDelegate.swift */,
-				331D7C711E751E330075B653 /* ViewController.swift */,
 				331D7C731E751E330075B653 /* Main.storyboard */,
 				331D7C761E751E330075B653 /* Assets.xcassets */,
 				331D7C781E751E330075B653 /* LaunchScreen.storyboard */,
+				330A534F1E7F94E900BC2FED /* STARWARS.TTF */,
 				331D7C7B1E751E330075B653 /* Info.plist */,
 			);
 			path = BlueHarvest;
@@ -96,6 +168,57 @@
 			path = BlueHarvestTests;
 			sourceTree = "<group>";
 		};
+		331D7C8F1E751EC10075B653 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				331D7C901E751EEB0075B653 /* APIClient.swift */,
+				330A53551E7FBB3800BC2FED /* Client.swift */,
+				330A53511E7FBAF500BC2FED /* FailClient.swift */,
+				330A53531E7FBB1300BC2FED /* FakeClient.swift */,
+			);
+			name = APIClient;
+			sourceTree = "<group>";
+		};
+		331D7C921E7520420075B653 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				331D7C931E75206D0075B653 /* Profile.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3374F4E31E7A4C67000E5DD8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3374F4E41E7A4C7C000E5DD8 /* ViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		3374F4E61E7A4DDD000E5DD8 /* JSONFormatters */ = {
+			isa = PBXGroup;
+			children = (
+				3374F4E71E7A4E15000E5DD8 /* ProfileFormatter.swift */,
+			);
+			name = JSONFormatters;
+			sourceTree = "<group>";
+		};
+		3374F4E91E7A5DDF000E5DD8 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				3374F4EA1E7A5E24000E5DD8 /* DataStore.swift */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		33851ADC1E75C15900E2FC50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33851ADD1E75C17B00E2FC50 /* IndividualCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331D7C891E751E330075B653 /* Build configuration list for PBXNativeTarget "BlueHarvest" */;
 			buildPhases = (
+				9D4636ADFD989E2FDAD8B137 /* [CP] Check Pods Manifest.lock */,
 				331D7C681E751E330075B653 /* Sources */,
 				331D7C691E751E330075B653 /* Frameworks */,
 				331D7C6A1E751E330075B653 /* Resources */,
+				1384BB0E5C286F77C402415B /* [CP] Embed Pods Frameworks */,
+				08192943F612918A5DD8C826 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331D7C8C1E751E330075B653 /* Build configuration list for PBXNativeTarget "BlueHarvestTests" */;
 			buildPhases = (
+				573E36D8BCB608EE16F478DB /* [CP] Check Pods Manifest.lock */,
 				331D7C7C1E751E330075B653 /* Sources */,
 				331D7C7D1E751E330075B653 /* Frameworks */,
 				331D7C7E1E751E330075B653 /* Resources */,
+				4D54314FCCF0B5ADC41424A6 /* [CP] Embed Pods Frameworks */,
+				F1A39EDDC48D3D0BCF584ED1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,6 +313,7 @@
 				331D7C7A1E751E330075B653 /* LaunchScreen.storyboard in Resources */,
 				331D7C771E751E330075B653 /* Assets.xcassets in Resources */,
 				331D7C751E751E330075B653 /* Main.storyboard in Resources */,
+				330A53501E7F94E900BC2FED /* STARWARS.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +326,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08192943F612918A5DD8C826 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueHarvest/Pods-BlueHarvest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1384BB0E5C286F77C402415B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueHarvest/Pods-BlueHarvest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D54314FCCF0B5ADC41424A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueHarvestTests/Pods-BlueHarvestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		573E36D8BCB608EE16F478DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4636ADFD989E2FDAD8B137 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A39EDDC48D3D0BCF584ED1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlueHarvestTests/Pods-BlueHarvestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		331D7C681E751E330075B653 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33851ADE1E75C17B00E2FC50 /* IndividualCell.swift in Sources */,
+				331D7C941E75206D0075B653 /* Profile.swift in Sources */,
+				330A53561E7FBB3800BC2FED /* Client.swift in Sources */,
 				331D7C721E751E330075B653 /* ViewController.swift in Sources */,
+				331D7C971E7526600075B653 /* DetailViewController.swift in Sources */,
 				331D7C701E751E330075B653 /* AppDelegate.swift in Sources */,
+				330A53541E7FBB1300BC2FED /* FakeClient.swift in Sources */,
+				331D7C911E751EEB0075B653 /* APIClient.swift in Sources */,
+				3374F4E81E7A4E15000E5DD8 /* ProfileFormatter.swift in Sources */,
+				3374F4EB1E7A5E24000E5DD8 /* DataStore.swift in Sources */,
+				330A53521E7FBAF500BC2FED /* FailClient.swift in Sources */,
+				3374F4E51E7A4C7C000E5DD8 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +443,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				331D7C851E751E330075B653 /* BlueHarvestTests.swift in Sources */,
+				33BFC23F1E81FBF600FDEBF4 /* ProfileFormatter.swift in Sources */,
+				33BFC2411E82214200FDEBF4 /* BlueHarvestTests.swift in Sources */,
+				331D7C951E75206D0075B653 /* Profile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +574,7 @@
 		};
 		331D7C8A1E751E330075B653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB175A87109176FEF934E9C1 /* Pods-BlueHarvest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NRZJU9A8L4;
@@ -352,6 +588,7 @@
 		};
 		331D7C8B1E751E330075B653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98FE6A56FE471480C14527B /* Pods-BlueHarvest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NRZJU9A8L4;
@@ -365,6 +602,7 @@
 		};
 		331D7C8D1E751E330075B653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF493F84341513E2D45EFCA /* Pods-BlueHarvestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +618,7 @@
 		};
 		331D7C8E1E751E330075B653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E107B3D9367E3D12A9B09A64 /* Pods-BlueHarvestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +651,7 @@
 				331D7C8B1E751E330075B653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		331D7C8C1E751E330075B653 /* Build configuration list for PBXNativeTarget "BlueHarvestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +660,7 @@
 				331D7C8E1E751E330075B653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
